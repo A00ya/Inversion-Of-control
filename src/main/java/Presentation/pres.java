@@ -3,7 +3,7 @@ package Presentation;
 import Dao.daoImplementation;
 import Metier.metierImplementation;
 
-public class presImplementation {
+public class pres {
     public static void main(String[] args) {
         daoImplementation dao = new daoImplementation();
         metierImplementation metier = new metierImplementation();
