@@ -2,12 +2,11 @@ package Presentation;
 
 import Dao.daoInterface;
 import Metier.metierInterface;
-
 import java.io.File;
 import java.lang.reflect.Method;
 import java.util.Scanner;
 
-public class pres2 {
+public class presDynamic {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(new File("config.txt"));  // FileNotFoundException
         String daoClassName = scanner.nextLine();
